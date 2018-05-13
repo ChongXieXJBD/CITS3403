@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+	<head>
+
+		<title>BPP Homepage</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+      
+
+	<body onload="rendertime();LastModify();">
+		
+		<header>
+			<nav>	
+				<h1>Best Pingpong</h1>
+						
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>About BPP</li>
+					<li>About Us</li>
+					<li>Contact Us</li>
+				</ul>
+			</nav>
+		
+		</header>
+		
+
+		<div>
+			<div class="leftdiv">
+				<ul>
+					<li><h3><a href="page2.html">Personal Information</a></h3></li>
+					<li><h3><a href="page3.html">Join a game</a></h3></li>
+				</ul>
+			</div>
+
+			<section>
+				<wel id="Welcome">Please choose the time you want to have your game.
+					<br>
+					The system will match games for you.
+				</wel>
+				<form id="preference">
+					<input type="text" name="Day" id="day">Day
+					<input type="text" name="Month" id="month">Month
+					<input type="text" name="Year"  id="year">Year
+					<br>
+					Do you only want to play at your city?<input type="checkbox" name="Location">
+					<br>
+					Do you only want to play with all the genders? <input type="checkbox" name="Sex">
+					<br>
+					Do your want to play with other users that has a similar Pingpong level?<input type="checkbox" name="GameLevel">
+					<br><br>
+					<input type="submit" value="submit" onclick="submitt();">
+				</form>
+			</section>
+		</div>		
+
+		<footer>
+			<div id="timeDisplay">
+			</div>
+			<div id="Modifydate">
+			</div>
+		</footer>
+
+	</body>
+
+
+</html>
