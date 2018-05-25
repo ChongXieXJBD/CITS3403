@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<!--import css file-->
+     <head>
+        <title>Register page</title>
+        <link rel = "stylesheet" type= "text/css" href= "styles/main.css">
+		<script type="text/javascript" src="scripts/main.js"></script>
+	 </head>
+	 
+	 <header>
+			<nav>	
+				<h1>Best Pingpong</h1>
+						
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About BPP</a></li>
+					<li><a href="#">About us</a></li>
+				</ul>
+			</nav>
+	 </header>
+	
+            <body onload="rendertime();lastModify();">
+			<div class="register_table">
+			   <form>
+			         <table>
+			              <tr><td>Email address:</td><td><input type="text" name='reacco'/></td></tr>
+				          <tr><td>Password:</td><td><input type="text" name='repass'/></td></tr>
+				          <tr><td>re-password:</td><td><input type="text" name='rerepass'/></td></tr>
+				          <tr><td>First Name:</td><td><input type="text" name='refname'/></td></tr>
+				          <tr><td>Last Name:</td><td><input type="text" name='relname'/></td></tr>
+				          <tr><td>Date of Birth:</td><td><input type="text" name='redob'/></td></tr>
+						  <tr><td>Gender:</td><td><select><option value="M">Male</option><option value="M">Female</option><option value="M">Other</option></select></td></tr>
+						  <tr><td><input type="submit" value="Register"></td><td><input type="button" name="close" value="Close" onclick="window.close();"/></td></tr>
+						  
+			          </table>
+			  </form>
+			</div>
+			</body>
+</html>
